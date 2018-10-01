@@ -25,6 +25,10 @@ var superheroines = ["catwoman", "she-hulk", "mystique"];
 var superElement = "wonder woman";
 
 function addElementToEndOfArray(superheroines, superElement) {
+  return [...superheroines, superElement];
+}
+
+function addElementToEndOfArray(superheroines, superElement) {
   superheroines.push(superElement);
   return superheroines;
 }
