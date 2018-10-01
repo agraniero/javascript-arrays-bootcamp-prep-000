@@ -56,6 +56,6 @@ function destructivelyRemoveElementFromEndOfArray(cats) {
 }
 
 function removeElementFromEndOfArray(entrepreneurs) {
-  entrepreneurs = entrepreneurs.slice();
+  entrepreneurs = entrepreneurs.slice(0, entrepreneurs.length -1);
   return entrepreneurs;
 }
