@@ -32,3 +32,5 @@ function destructivelyAddElementToEndOfArray(superheroines, superElement) {
   superheroines.push(superElement);
   return superheroines;
 }
+
+var entrepreneurs = [""]
