@@ -39,4 +39,4 @@ function accessElementInArray(entrepreneurs, index) {
   return (entrepreneurs[2]);
 }
 
-
+function 
