@@ -50,4 +50,7 @@ function removeElementFromBeginningOfArray(superheroines) {
   return superheroines;
 }
 
-
+function destructivelyRemoveElementFromEndOfArray(cats) {
+  cats.pop();
+  return cats;
+}
