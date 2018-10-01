@@ -39,4 +39,8 @@ function accessElementInArray(entrepreneurs, index) {
   return (entrepreneurs[2]);
 }
 
-function 
+
+function destructivelyRemoveElementFromBeginningOfArray(entrepreneurs) {
+  entrepreneurs.shift();
+  return entrepreneurs;
+}
