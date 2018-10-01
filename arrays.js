@@ -45,4 +45,7 @@ function destructivelyRemoveElementFromBeginningOfArray(entrepreneurs) {
   return entrepreneurs;
 }
 
-
+function removeElementFromBeginningOfArray(superheroines) {
+  superheroines.slice(1);
+  return superheroines;
+}
