@@ -54,3 +54,8 @@ function destructivelyRemoveElementFromEndOfArray(cats) {
   cats.pop();
   return cats;
 }
+
+function removeElementFromEndOfArray(entrepreneurs) {
+  entrepreneurs.slice();
+  return entrepreneurs;
+}
