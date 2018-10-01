@@ -44,3 +44,5 @@ function destructivelyRemoveElementFromBeginningOfArray(entrepreneurs) {
   entrepreneurs.shift();
   return entrepreneurs;
 }
+
+
