@@ -28,7 +28,7 @@ function addElementToEndOfArray(superheroines, superElement) {
   return [...superheroines, superElement];
 }
 
-function addElementToEndOfArray(superheroines, superElement) {
+function destructivelyAddElementToEndOfArray(superheroines, superElement) {
   superheroines.push(superElement);
   return superheroines;
 }
