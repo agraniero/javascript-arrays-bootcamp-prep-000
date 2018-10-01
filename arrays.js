@@ -35,6 +35,6 @@ function destructivelyAddElementToEndOfArray(superheroines, superElement) {
 
 var entrepreneurs = ["Elizabeth Holmes", "Laurene Powell Jobs", "Arianna Huffington"];
 
-function accessElementInArray(entrepreneurs, index) {
+function accessElementInArray(entrepreneurs, [1]) {
   console.log(entrepreneurs[1]);
 }
